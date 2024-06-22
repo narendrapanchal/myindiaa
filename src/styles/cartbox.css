@@ -1,13 +1,20 @@
 
 
 .cart-box {
-    display: flex;
     background: #fff;
+    display: flex;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
+}
+@media (max-width:720px) {
+    .cart-box{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 
+    }
 }
 
 .cart-box:hover {
