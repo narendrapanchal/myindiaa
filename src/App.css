@@ -1,0 +1,17 @@
+body{
+  background: #2b2f32;
+  max-width: 63rem;
+  padding: 20px;
+  margin: auto;
+  color: white
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+@media (max-width:720px) {
+  nav > a{
+
+ }
+}

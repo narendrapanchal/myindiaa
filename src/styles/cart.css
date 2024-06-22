@@ -1,0 +1,34 @@
+.carts{
+    grid-gap:20px;
+    display: grid;
+    margin-top: 20px;
+}
+
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+}
+
+.total-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.checkout-button {
+    background-color: #E91E63;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.checkout-button:hover {
+    background-color: #D81B60;
+}
